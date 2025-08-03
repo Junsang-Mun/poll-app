@@ -1,0 +1,24 @@
+{
+  "name": "poll-app-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx ts-node src/app.ts",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q src/index.ts\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.1.0",
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
